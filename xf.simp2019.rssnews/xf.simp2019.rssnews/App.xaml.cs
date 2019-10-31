@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace xf.simp2019.rssnews
 {
@@ -9,10 +7,7 @@ namespace xf.simp2019.rssnews
         public App()
         {
             InitializeComponent();
-
-            ViewModels.ArticlesListViewModel articlesListViewModel = new ViewModels.ArticlesListViewModel();
-
-            MainPage = new MainPage();
+            MainPage = new Views.ArticlesListPage();
         }
 
         protected override void OnStart()
