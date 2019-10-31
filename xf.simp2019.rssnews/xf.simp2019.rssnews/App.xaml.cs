@@ -10,12 +10,7 @@ namespace xf.simp2019.rssnews
         {
             InitializeComponent();
 
-            Services.NCFService service = new Services.NCFService();
-            service.GetArticles();
-            service.GetArticles_Completed += (sender, e) =>
-            {
-                var lista = e.Results;
-            };
+            ViewModels.ArticlesListViewModel articlesListViewModel = new ViewModels.ArticlesListViewModel();
 
             MainPage = new MainPage();
         }
