@@ -58,7 +58,7 @@
             <StackLayout Grid.Row="0" Padding="15,20,15,0">
                 <Label FontAttributes="Bold"
                        FontSize="Title"
-                       Text="NFC News" />
+                       Text="NCF News" />
             </StackLayout>
             <ListView Grid.Row="1"
                       Margin="15,20,15,0"
