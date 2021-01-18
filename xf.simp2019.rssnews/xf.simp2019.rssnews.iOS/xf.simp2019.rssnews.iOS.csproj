@@ -120,13 +120,13 @@
     <Reference Include="System.Numerics.Vectors" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
-    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.1874" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.0" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\xf.simp2019.rssnews\xf.simp2019.rssnews.csproj">
-      <Project>{7EC2101D-FB77-413D-966A-C0D01596D75F}</Project>
+      <Project>{54595C0F-8209-42C2-BB22-56352064B69A}</Project>
       <Name>xf.simp2019.rssnews</Name>
     </ProjectReference>
   </ItemGroup>
